@@ -158,7 +158,7 @@ body {
   font-weight: 300;
   color: black;
   line-height: 2.5rem;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 .top-section {
   display: flex;
@@ -185,21 +185,9 @@ body {
 .top-section .action h2 b {
   display: block;
 }
-.top-section li {
-  margin: 45px;
-}
-.top-section li .button {
-  border: 1px solid black;
-  padding: 5px 40px;
-  border-radius: 5px;
-  color: black;
-}
 .top-section .content {
   width: 1000px;
   text-align: center;
-}
-.top-section .content h2 {
-  margin: 20px;
 }
 nav {
   display: flex;
@@ -209,5 +197,8 @@ nav {
   font-size: 1.4rem;
 }
 nav a {
-  color: black;
+  color: gray;
+}
+.main-image {
+  width: 100%;
 }
