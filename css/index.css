@@ -189,10 +189,10 @@ body {
   margin: 45px;
 }
 .top-section li .button {
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 5px 40px;
   border-radius: 5px;
-  color: black;
+  color: white;
 }
 .top-section .content {
   width: 1000px;
@@ -201,13 +201,21 @@ body {
 .top-section .content h2 {
   margin: 20px;
 }
+.header-background {
+  background-image: url(../images/color-diet-food-255501-2.jpg);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 nav {
   display: flex;
   justify-content: space-between;
   width: 800px;
-  margin: 2.5rem auto;
+  padding: 2.5rem 0;
   font-size: 1.4rem;
+  align-self: center;
 }
 nav a {
-  color: black;
+  color: white;
 }
