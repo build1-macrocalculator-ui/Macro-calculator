@@ -187,9 +187,9 @@ body {
 .header-background nav {
   display: flex;
   justify-content: space-between;
-  width: 800px;
+  width: 850px;
   padding: 2.5rem 0;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   align-self: center;
 }
 .header-background nav a {
