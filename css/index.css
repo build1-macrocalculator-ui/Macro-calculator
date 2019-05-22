@@ -241,6 +241,61 @@ body {
   border-radius: 5px;
   color: white;
   background-color: rgba(101, 188, 114, 0.7);
+  margin: 2rem auto;
+  flex-wrap: wrap;
+}
+.header-background .action li .button:hover {
+  background-color: #65bc72;
+}
+.header-background .action {
+  width: 100%;
+  text-align: center;
+}
+.header-background .action h1 {
+  font-size: 7rem;
+  margin: 2rem auto;
+  line-height: 7rem;
+}
+.header-background .action h2 {
+  font-size: 4.5rem;
+  line-height: 7rem;
+  margin: 1rem auto;
+}
+.header-background .action h2 b {
+  display: block;
+}
+.header-background .action li {
+  margin: 45px;
+}
+.header-background .action li .button {
+  border: 1px solid white;
+  padding: 8px 50px;
+  border-radius: 5px;
+.top-section .content h2 {
+  margin: 20px;
+  font-size: 2.5rem;
+}
+.header-background {
+  background-image: url(../images/color-diet-food-255501-2-2.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 45rem;
+}
+.header-background nav {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  padding: 2.5rem 0;
+  font-size: 1.7rem;
+  align-self: center;
+}
+.header-background nav a {
+  color: white;
+  background-color: rgba(101, 188, 114, 0.7);
 }
 .header-background .action li .button:hover {
   background-color: #65bc72;
