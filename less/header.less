@@ -1,20 +1,60 @@
 .header-background {
-    background-image: url(../images/color-diet-food-255501-2.jpg);
+    background-image: url(../images/color-diet-food-255501-2-2.jpg);
+    background-position: center;
+    background-size: cover;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-}
+    height: 45rem;
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 800px;
-    padding: 2.5rem 0;
-    font-size: 1.4rem;
-    align-self: center;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+        padding: 2.5rem 0;
+        font-size: 1.4rem;
+        align-self: center;
 
-    a {
-        color: white;
+        a {
+            color: white;
+        }
+    }
+
+    .action {
+        width: 100%;
+        text-align: center;
+
+        h1 {
+            font-size: 7rem;
+            margin: 2rem auto;
+            line-height: 7rem;
+        }
+
+        h2 {
+            font-size: 4.5rem;
+            line-height: 7rem;
+            margin: 1rem auto;
+
+            b {
+                display: block;
+            }
+        }
+
+        li {
+            margin: 45px;
+    
+            .button {
+                border: 1px solid white;
+                padding: 8px 50px;
+                border-radius: 5px;
+                color: white;
+                background-color: rgba(101, 188, 114, .7);
+            }
+
+            .button:hover {
+                background-color: rgba(101, 188, 114, 1);
+            }
+        }
     }
 }
