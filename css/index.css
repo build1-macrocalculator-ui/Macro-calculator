@@ -245,3 +245,33 @@ body {
 .header-background .action li .button:hover {
   background-color: #65bc72;
 }
+.header-background .action {
+  width: 100%;
+  text-align: center;
+}
+.header-background .action h1 {
+  font-size: 7rem;
+  margin: 2rem auto;
+  line-height: 7rem;
+}
+.header-background .action h2 {
+  font-size: 4.5rem;
+  line-height: 7rem;
+  margin: 1rem auto;
+}
+.header-background .action h2 b {
+  display: block;
+}
+.header-background .action li {
+  margin: 45px;
+}
+.header-background .action li .button {
+  border: 1px solid white;
+  padding: 8px 50px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(101, 188, 114, 0.7);
+}
+.header-background .action li .button:hover {
+  background-color: #65bc72;
+}
