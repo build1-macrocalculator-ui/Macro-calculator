@@ -232,14 +232,14 @@ body {
   margin-bottom: 60px;
   margin-top: 60px;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 .bottom-section .features-box {
   display: flex;
   margin: 0 20px;
 }
 .bottom-section .features-box .column h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 10px;
 }
 .bottom-section .features-box .column p {

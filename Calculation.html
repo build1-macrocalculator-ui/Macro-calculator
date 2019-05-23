@@ -10,6 +10,130 @@
 </head>
 
 <body>
+    <div class="container">
+
+        <header>
+            <h2>Calculate your daily goal and macros</h2>
+            <p>To calculate your daily goal, you first have to determine your total daily energy expenditure (TDEE). This is made up of your basal metabolic rate (BMR) and your daily activity. This determines the amount of calories you need to maintain your existing weight on a daily basis. </p>
+        </header>
+
+        <div class="BMR">
+            <h5>Step #1</h5>
+             <h3>Find your BMR using the calculator below</h3>
+        </div>
+
+        <div>
+            <form>
+                <p>
+                    <label for="gender"></label>Gender</label>
+                    <select id="gender-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="weight">Weight</label>
+                    <input class="weight" type="number" name="weight" value="" placeholder="ex: 130">
+                    <span class="lbs">lbs.</span>
+                </p>
+                <p>
+                    <label for="height">Height</label>
+                    <select id="height-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="5-0">5'0"</option>
+                        <option value="5-1">5'1"</option>
+                        <option value="5-2">5'2"</option>
+                        <option value="5-3">5'3"</option>
+                        <option value="5-4">5'4"</option>
+                        <option value="5-5">5'5"</option>
+                        <option value="5-6">5'6"</option>
+                        <option value="5-7">5'7"</option>
+                        <option value="5-8">5'8"</option>
+                        <option value="5-9">5'9</option>
+                        <option value="5-10">5'10"</option>
+                        <option value="5-11">5'11"</option>
+                        <option value="6-0">6'0"</option>
+                        <option value="6-1">6'1"</option>
+                        <option value="6-2">6'2"</option>
+                        <option value="6-3">6'3"</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="age">Age</label>
+                    <input class="age" type="number" name="age" value="" placeholder="ex: 25">
+                    <span class="yrs">yrs.</span>
+                </p>
+                <p>
+                    <label for="goals">Goal</label>
+                    <select id="goals-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="lose">lose weight</option>
+                        <option value="maintain">maintain weight</option>
+                        <option value="gain">gain muscle</option>
+                        <option value="lose">lose weight</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" value="Calculate BMR" />
+                </p>
+                <p>
+                    <label for="result">Result</label>
+                    <input class="result" name="result" />
+                    <span class="bmr">your BMR result</span>
+                </p>
+            </form>
+        </div>    
+
+        <Section class="middle-section">
+            <div class="activity">
+                <h3>Activity Level</h3>
+                <h5>Step #2</h5>
+                <p>Multipy your BMR result from above by one of the following activity levels.</p>    
+            </div>
+                <div class="column">
+                    <img src="https://img.icons8.com/ios/50/000000/slouch.png" alt="Slouch picture">
+                    <h3>BMR x 1.1</h3>
+                    <h4>Sedentary</h4>
+                    <p>You don't move much. you dont exercise, you might have a desk job, and you watch lots of TV</p>
+                </div>
+                <div class="column">
+                    <img src="https://img.icons8.com/ios/50/000000/walking.png" alt="Walking picture">
+                    <h3>BMR x 1.25</h3>
+                    <h4>Lightly Active</h4>
+                    <p>You're active and you exercise a few days a week, 1-3 days</p>
+                </div>
+                <div class="column">
+                    <img src="https://img.icons8.com/ios/50/000000/exercise.png" alt="exercise picture">
+                    <h3>BMR x 1.35</h3>
+                    <h4>Moderately Active</h4>
+                    <p>You train 4-5 days a week and have an active lifestyle.</p>
+                </div>
+                <div class="column">
+                    <img src="https://img.icons8.com/wired/64/000000/exercise.png" alt="treadmill picture">
+                    <h3>BMR x 1.5</h3>
+                    <h4>Very Active</h4>
+                    <p>You workout 6-7 hours a week. You typically have a hard labor job as well</p>
+                </div>
+                <div class="column">
+                    <img src="https://img.icons8.com/ios/50/000000/weightlift.png" alt="Weightlifting picture">
+                    <h3>BMR x 1.7</h3>
+                    <h4>Extremely Active</h4>
+                    <p>You workout hard 6-7 days or more, 10 hours or more a week and you're very active outside of training.</p>
+                </div>
+            </Section>
+            <section>
+                <h5>Step #3</h5>
+                <h3>Calculate your calories need to reach your fitness goals using the following</h3>
+                <ul>
+                    <li>Weight loss = TDEE x .85</li>
+                    <li>Maintain Weight = TDEE x 0</li>
+                    <li>Muscle Gain = TDEE x 1.1</li>
+                </ul>
+            </section>
+
+
+    </div>
 
 </body>
 </html>
