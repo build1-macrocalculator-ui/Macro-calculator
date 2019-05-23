@@ -246,3 +246,66 @@ body {
   font-size: 2rem;
   margin: 0 10px;
 }
+.login-screen {
+  position: fixed;
+  top: 15%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: white;
+  width: 400px;
+  height: 350px;
+  border: 1px solid lightgray;
+  display: none;
+}
+.login-screen .close {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f0f0f0;
+}
+.login-screen .close .close-button {
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  color: gray;
+}
+.login-screen .close .close-button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.login-screen .form-content {
+  padding: 20px 30px 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.login-screen .form-content h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+.login-screen .form-content form {
+  width: 100%;
+}
+.login-screen .form-content form #username {
+  width: 100%;
+  margin: 35px 0;
+  padding: 5px;
+}
+.login-screen .form-content form #password {
+  width: 100%;
+  padding: 5px;
+}
+.login-screen .form-content form #form-button {
+  width: 100%;
+  border: 1px solid white;
+  padding: 8px 50px;
+  border-radius: 5px;
+  color: white;
+  background-color: #65bc72;
+  margin-top: 45px;
+}
+.login-screen .form-content form #form-button:hover {
+  cursor: pointer;
+}
