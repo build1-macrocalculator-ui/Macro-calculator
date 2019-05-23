@@ -256,7 +256,6 @@ body {
   width: 400px;
   height: 350px;
   border: 1px solid lightgray;
-  display: none;
 }
 .login-screen .close {
   display: flex;
@@ -308,4 +307,7 @@ body {
 }
 .login-screen .form-content form #form-button:hover {
   cursor: pointer;
+}
+.login-hidden {
+  display: none;
 }
