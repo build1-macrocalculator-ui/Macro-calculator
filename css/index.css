@@ -296,7 +296,7 @@ body {
   width: 100%;
   padding: 5px;
 }
-.login-screen .form-content form #form-button {
+.login-screen .form-content form .form-button {
   width: 100%;
   border: 1px solid white;
   padding: 8px 50px;
@@ -305,7 +305,7 @@ body {
   background-color: #65bc72;
   margin-top: 45px;
 }
-.login-screen .form-content form #form-button:hover {
+.login-screen .form-content form .form-button:hover {
   cursor: pointer;
 }
 .login-hidden {
