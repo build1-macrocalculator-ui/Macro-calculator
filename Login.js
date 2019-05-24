@@ -1,4 +1,4 @@
-const display = document.querySelector('.button');
+const display = document.querySelectorAll('.button');
 const login = document.querySelector('.login-screen');
 const exit = document.querySelector('.close-button');
 
@@ -10,6 +10,8 @@ exit.addEventListener('click', () => {
     toggle();
 });
 
-display.addEventListener('click', () => {
+display.forEach(function(element) {
+    element.addEventListener('click', () => {
     toggle();
+})
 });
