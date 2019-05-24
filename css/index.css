@@ -232,17 +232,66 @@ body {
   margin-bottom: 60px;
   margin-top: 60px;
   text-align: center;
+  font-size: 2.5rem;
 }
 .bottom-section .features-box {
   display: flex;
   margin: 0 20px;
 }
 .bottom-section .features-box .column h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 10px;
 }
 .bottom-section .features-box .column p {
-  border: 1px solid red;
   font-size: 2rem;
   margin: 0 10px;
+}
+.container {
+  width: 1000px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFFFF0;
+  border: 1px solid blue;
+}
+.container header {
+  padding: 10px;
+}
+.container header h2 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 2.5rem;
+}
+.container header p {
+  text-align: center;
+}
+.container div.bmr {
+  text-align: center;
+  padding: 10px;
+}
+.container div.calculator {
+  text-align: center;
+}
+.container .middle-section .activity {
+  text-align: center;
+  padding: 20px;
+}
+.container .middle-section .activity h3 {
+  font-size: 2.5rem;
+}
+.container .middle-section .activity h5 {
+  font-size: 2.5rem;
+}
+.container .middle-section .column {
+  padding: 10px;
+}
+.container .middle-section .column .columnO .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .middle-section .column .columnO .text {
+  text-align: center;
+}
+.container .bottom-section {
+  text-align: center;
 }
