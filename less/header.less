@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 45rem;
 
     nav {
         display: flex;
@@ -19,6 +18,15 @@
         a {
             color: white;
         }
+
+        @media(max-width: 860px) {
+            width: 600px;
+        }
+
+        @media(max-width: 610px) {
+            width: 450px;
+        }
+
     }
 
     .action {
@@ -29,6 +37,10 @@
             font-size: 7rem;
             margin: 2rem auto;
             line-height: 7rem;
+
+            @media(max-width: 500px) {
+                line-height: 6.5rem;
+            }
         }
 
         h2 {
@@ -38,6 +50,10 @@
 
             b {
                 display: block;
+            }
+
+            @media(max-width: 500px) {
+                line-height: 5rem;
             }
         }
 
