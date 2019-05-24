@@ -206,6 +206,9 @@ body {
     width: 450px;
   }
 }
+.header-background nav a:hover {
+  text-decoration: underline;
+}
 .header-background .action {
   width: 100%;
   text-align: center;
