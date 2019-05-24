@@ -318,6 +318,7 @@ body {
 .container .middle-section .column .columnO .text {
   text-align: center;
 }
+<<<<<<< HEAD
 .container .bottom-section {
   text-align: center;
 }
@@ -386,3 +387,5 @@ body {
 .login-hidden {
   display: none;
 }
+=======
+>>>>>>> css update for calculation html
