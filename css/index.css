@@ -73,7 +73,6 @@ footer,
 header,
 hgroup,
 menu,
-nav,
 output,
 ruby,
 section,
@@ -174,6 +173,9 @@ body {
   margin: 20px;
   font-size: 2.5rem;
 }
+.top-section .content p {
+  padding: 0 10px;
+}
 .header-background {
   background-image: url(../images/color-diet-food-255501-2-2.jpg);
   background-position: center;
@@ -182,7 +184,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  height: 45rem;
 }
 .header-background nav {
   display: flex;
@@ -195,6 +196,16 @@ body {
 .header-background nav a {
   color: white;
 }
+@media (max-width: 860px) {
+  .header-background nav {
+    width: 600px;
+  }
+}
+@media (max-width: 610px) {
+  .header-background nav {
+    width: 450px;
+  }
+}
 .header-background .action {
   width: 100%;
   text-align: center;
@@ -204,6 +215,11 @@ body {
   margin: 2rem auto;
   line-height: 7rem;
 }
+@media (max-width: 500px) {
+  .header-background .action h1 {
+    line-height: 6.5rem;
+  }
+}
 .header-background .action h2 {
   font-size: 4.5rem;
   line-height: 7rem;
@@ -211,6 +227,11 @@ body {
 }
 .header-background .action h2 b {
   display: block;
+}
+@media (max-width: 500px) {
+  .header-background .action h2 {
+    line-height: 5rem;
+  }
 }
 .header-background .action li {
   margin: 45px;
@@ -233,6 +254,11 @@ body {
   margin-top: 60px;
   text-align: center;
   font-size: 2.5rem;
+}
+@media (max-width: 800px) {
+  .bottom-section div h2 {
+    margin: 30px 0;
+  }
 }
 .bottom-section .features-box {
   display: flex;
