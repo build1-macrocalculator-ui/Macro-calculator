@@ -7,30 +7,30 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 
-    nav {
-        display: flex;
-        justify-content: space-between;
-        width: 850px;
-        padding: 2.5rem 0;
-        font-size: 1.7rem;
-        align-self: center;
+    header{
+        width: 100%;
+    
+        nav {
+            display: flex;
+            justify-content: space-between;
+            max-width: 850px;
+            padding: 2.5rem 0;
+            font-size: 1.7rem;
+            margin: 0 auto;
 
-        a {
-            color: white;
+            a {
+                color: white;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            @media(max-width: 800px) {
+                justify-content: space-evenly;
+            }
+
         }
-
-        @media(max-width: 860px) {
-            width: 600px;
-        }
-
-        @media(max-width: 610px) {
-            width: 450px;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
     }
 
     .action {
