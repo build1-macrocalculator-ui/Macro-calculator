@@ -171,7 +171,7 @@ body {
 }
 .top-section .content h2 {
   margin: 20px;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 .top-section .content p {
   padding: 0 10px;
@@ -198,9 +198,12 @@ body {
 }
 .header-background header nav a {
   color: white;
+  padding: 0 10px;
 }
 .header-background header nav a:hover {
-  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  border-radius: 5px;
 }
 @media (max-width: 800px) {
   .header-background header nav {
