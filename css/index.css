@@ -319,6 +319,19 @@ body {
 .container header {
   padding: 10px;
 }
+.container header nav {
+  text-align: end;
+  font-size: 1.7rem;
+}
+.container header nav a {
+  padding: 0 10px;
+  color: black;
+}
+.container header nav a:hover {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-radius: 5px;
+}
 .container header h2 {
   text-align: center;
   margin: 10px 0;
