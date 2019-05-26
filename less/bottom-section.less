@@ -5,7 +5,7 @@
     margin-bottom: 50px;
 
     div h2 {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         margin-top: 60px;
         text-align: center;
         font-size: 2.7rem;
@@ -18,9 +18,14 @@
     .features-box {
         display: flex;
         margin: 0 20px;
+        justify-content: space-evenly;
 
         .column-content{
-            border-radius: 5px;
+            width: 80%;
+        }
+
+        .column {
+            width: 32%;
         }
 
         .column h3 {
@@ -33,13 +38,27 @@
         }
 
         .column p {
-            // border: 1px solid red;
-            // font-size: 2rem;
-            margin: 10px;
+            margin: 20px;
         }
 
         @media(max-width: 500px) {
             flex-wrap: wrap;
+        }
+
+        .column-item {
+            display: flex;
+            margin: 10px 0;
+
+            .icon {
+                text-align: center;
+                height: 55px;
+                width: 55px;
+                border-radius: 50%;
+                padding-top: 13px;
+                font-size: 2.7rem;
+                background: rgb(240, 240, 240);
+                color: gray;
+            }
         }
     
     }

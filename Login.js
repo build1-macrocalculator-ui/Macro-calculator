@@ -1,14 +1,16 @@
 const display = document.querySelectorAll('.button');
 const login = document.querySelector('.login-screen');
-const exit = document.querySelector('.close-button');
+const closed = document.querySelector('.close-button');
 const container = document.querySelector('.home-container');
+const feature = document.querySelectorAll('.column-item');
+const icon = document.querySelectorAll('.icon');
 
 let toggle = function() {
     container.classList.toggle('toggle');
     login.classList.toggle('login-hidden');
 };
 
-exit.addEventListener('click', () => {
+closed.addEventListener('click', () => {
     toggle();
 });
 
@@ -18,16 +20,19 @@ display.forEach(function(element) {
     })
 });
 
-const feature = document.querySelectorAll('.column-content');
 
-feature.forEach(function(element) {
+
+feature.forEach(function(element, i) {
     element.addEventListener('mouseover', () => {
-        element.style.backgroundColor = 'lightgray';
+        icon[i].style.backgroundColor = 'rgb(101, 188, 114)';
+        icon[i].style.color = 'white';
     })
 });
 
-feature.forEach(function(element) {
+feature.forEach(function(element, i) {
     element.addEventListener('mouseleave', () => {
-        element.style.backgroundColor = 'white';
+        icon[i].style.backgroundColor = 'rgb(240, 240, 240)';
+        icon[i].style.color = 'gray';
     })
 });
+
