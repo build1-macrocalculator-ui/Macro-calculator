@@ -171,7 +171,7 @@ body {
 }
 .top-section .content h2 {
   margin: 20px;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 .top-section .content p {
   padding: 0 10px;
@@ -185,25 +185,29 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.header-background nav {
+.header-background header {
+  width: 100%;
+}
+.header-background header nav {
   display: flex;
   justify-content: space-between;
-  width: 850px;
+  max-width: 850px;
   padding: 2.5rem 0;
   font-size: 1.7rem;
-  align-self: center;
+  margin: 0 auto;
 }
-.header-background nav a {
+.header-background header nav a {
   color: white;
+  padding: 0 10px;
 }
-@media (max-width: 860px) {
-  .header-background nav {
-    width: 600px;
-  }
+.header-background header nav a:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  border-radius: 5px;
 }
-@media (max-width: 610px) {
-  .header-background nav {
-    width: 450px;
+@media (max-width: 800px) {
+  .header-background header nav {
+    justify-content: space-evenly;
   }
 }
 .header-background .action {
@@ -248,12 +252,15 @@ body {
 }
 .bottom-section {
   justify-content: space-evenly;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 .bottom-section div h2 {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   margin-top: 60px;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 @media (max-width: 800px) {
   .bottom-section div h2 {
@@ -263,24 +270,67 @@ body {
 .bottom-section .features-box {
   display: flex;
   margin: 0 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.bottom-section .features-box .column h3 {
-  font-size: 2.5rem;
+.bottom-section .features-box .column-content {
+  width: 80%;
+}
+.bottom-section .features-box h3 {
+  font-size: 2.2rem;
   margin: 10px;
 }
-.bottom-section .features-box .column p {
-  font-size: 2rem;
-  margin: 0 10px;
+@media (max-width: 500px) {
+  .bottom-section .features-box h3 {
+    text-align: center;
+  }
+}
+.bottom-section .features-box p {
+  margin: 20px;
+}
+@media (max-width: 500px) {
+  .bottom-section .features-box {
+    flex-wrap: wrap;
+  }
+}
+.bottom-section .features-box .column-item {
+  display: flex;
+  margin: 10px 0;
+  max-width: 420px;
+  height: 180px;
+}
+.bottom-section .features-box .column-item .icon {
+  text-align: center;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  padding-top: 13px;
+  font-size: 2.7rem;
+  background: #f0f0f0;
+  color: gray;
 }
 .container {
   width: 1000px;
-  margin: 20px;
+  margin: 20px auto;
   padding: 20px;
   background-color: #FFFFF0;
   border: 1px solid blue;
 }
 .container header {
   padding: 10px;
+}
+.container header nav {
+  text-align: end;
+  font-size: 1.7rem;
+}
+.container header nav a {
+  padding: 0 10px;
+  color: black;
+}
+.container header nav a:hover {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-radius: 5px;
 }
 .container header h2 {
   text-align: center;
@@ -318,7 +368,6 @@ body {
 .container .middle-section .column .columnO .text {
   text-align: center;
 }
-<<<<<<< HEAD
 .container .bottom-section {
   text-align: center;
 }
@@ -331,7 +380,8 @@ body {
   background-color: white;
   width: 400px;
   height: 350px;
-  border: 1px solid lightgray;
+  border: 1px solid black;
+  z-index: 998;
 }
 .login-screen .close {
   display: flex;
@@ -385,7 +435,11 @@ body {
   cursor: pointer;
 }
 .login-hidden {
-  display: none;
+  visibility: hidden;
 }
-=======
->>>>>>> css update for calculation html
+.home-container {
+  opacity: 0.3;
+}
+.toggle {
+  opacity: 1;
+}
